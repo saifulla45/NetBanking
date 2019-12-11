@@ -16,7 +16,7 @@ public class ReadConfig {
 			prop=new Properties();
 			prop.load(fis);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+			
 			System.out.println("Exceptiion is "+e.getMessage());
 		}
 	}
